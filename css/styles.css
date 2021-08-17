@@ -1,0 +1,185 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 5% 5% 5% 5%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.h2-pricing {
+    color: black;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Images */
+
+.iphone-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 100px;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4rem;
+}
+
+.navbar-brand {
+    font-size: 35px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+
+/* Download Button */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Feature */
+
+#features {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    padding-bottom: 20px;
+    margin: 30px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 90px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+.card-header{
+    background-color: #ef8172;
+}
+
+
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 50px;
+}
+.cta-h3{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 200px 10px;
+}
+/* Download Button */
+
+.cta-button{
+    margin-top: 200px;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 2% 15%;
+}
+.fticon{
+    margin: 10px;
+    padding: 1px;
+}
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .iphone-img {
+        transform: rotate(0);
+        position: static;
+    }
+    .cta-h3{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding: 10px 200px 10px;
+}
+}
