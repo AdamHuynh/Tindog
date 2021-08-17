@@ -175,11 +175,16 @@ p {
         transform: rotate(0);
         position: static;
     }
+    #cta{
+        background-color: #ff4c68;
+        text-align: center;
+        padding: 50px;
+    }
     .cta-h3{
         color: white;
         font-family: "Montserrat", sans-serif;
         font-size: 1.5rem;
         line-height: 1.5;
-        padding: 10px 200px 10px;
-}
+        padding: 0;
+    }
 }
